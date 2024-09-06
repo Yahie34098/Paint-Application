@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+  <div class="paint">
+    <div class="container">
+      <div class="buttons">
+        <div>Shapes</div>
+        <button id="Rectangle" type="click">Rectangle</button>
+        <button id="Cricle" type="click">Cricle</button>
+        <button id="Triangle">Triangle</button>
+        <input id="fillColor" type="checkbox">
+        <label for="fillColor">
+          fillColor
+        </label>
+        <label for="">Option
+          <button type="click">Bruch</button>
+          <button type="click">Eraser</button>
+          <input type="range">
+          <div class="white"></div>
+          <div class="black"></div>
+          <div class="red"></div>
+          <div class="green"></div>
+          <div class="blue"></div>
+        </label>
+        <button type="click">Clear Canvas</button>
+        <button type="click">save as image</button>
+      </div>
+      <canvas class="ourCanvas" width="150" height="150"></canvas>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>

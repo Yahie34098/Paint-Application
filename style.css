@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.paint {
+  background-color: cornflowerblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paint .container {
+  height: 75%;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paint .container .buttons {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paint .container .ourCanvas {
+  border: 2px solid black;
+}
